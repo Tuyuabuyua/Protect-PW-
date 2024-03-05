@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Password Protected Web Page</title>
+  <link rel="stylesheet" href="./style.css">
+
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LOGIN PASSWORD</title>
+</head>
+<body>
+  <div class="div1"> 
+    <div class="div2">
+      
+    <form>
+      <h3>SELAMAT DATANG</h3>
+    <h4>Kamu Harus masukan Password Lihat Diatas Lalu
+    Masukan Ke Kolom</h4>
+      
+        <label for="pswd" >Masukan Kata Sandi </label>
+      
+      </br>
+        <input type="password" id="pswd" class="box">
+      
+      </br>
+        <input type="button" value="KIRIM" onclick="checkPswd();"                              class="confirm" />
+    </form>
+    </div>
+  </div>
+
+  <!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Running Text</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="runtext-container">
+<div class="main-runtext">
+<marquee direction="" onmouseover="this.stop();" onmouseout="this.start();">
+
+<div class="holder">
+
+     <div class="text-container">
+   &nbsp; &nbsp; <img src=""> &nbsp; <a data-fancybox-group="gallery" class="fancybox" href="" title="THE ELECTRIC LIGHTING ACT: section 35">KATA SANDI : BUYKAK</a>
+    </div>
+    
+</div>
+
+</marquee>
+</div>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
+  
+<!--Function to check password the already set password is a BUYKAK-->
+<script type="text/javascript">
+    function checkPswd() {
+        var confirmPassword = "BUYKAK";
+        var password = document.getElementById("pswd").value;
+        if (password == confirmPassword) {
+             window.location="https://www.speedquizzing.com";
+        window.location="https://tuyuabuyua.github.io/WEB-ARAB/";
+        }
+        else{
+            alert("Sandi tidak cocok. Coba Lagi");
+        }
+    }
+</script>
+</body>
+</html
+<!-- partial -->
+  
+</body>
+</html>

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+body {
+  background-color: #00ffff;
+  display: table;
+}
+
+.div1 {
+  height: 100%;
+  width: 100%;
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.div2 {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: VT323;
+  font-size: 100px;
+  color: #ff0000;
+}
+
+.box {
+  text-align: center;
+  font-size: 100px;
+  font-family: VT323;
+  outline: none;
+  width: 250px;
+  height: 85px;
+  border: none;
+  border-bottom: 10px solid #00ffff;
+}
+
+.confirm {
+  border: none;
+  font-size: 100px;
+  font-family: VT323;
+  margin-top: 70px;
+  color: #000000f;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+/* CSS Document */
+
+marquee {
+	margin-top: 7px;
+	width: 100%;
+}
+
+.runtext-container {
+background-color:#ddddff;
+*background-color:#ccf;
+background-image:-moz-linear-gradient(top,#ccf,#fff);
+background-image:-webkit-gradient(linear,0 0,0 100%,from(#ccf),to(#fff));
+background-image:-webkit-linear-gradient(top,#ccf,#fff);
+background-image:-o-linear-gradient(top,#ccf,#fff);
+background-image:linear-gradient(to bottom,#ccf,#fff);
+background-repeat:repeat-x;
+	border: 4px solid #000000;
+	box-shadow:0 5px 20px rgba(0, 0, 0, 0.9);
+
+width: 850px;
+overflow-x: hidden;
+overflow-y: visible;
+margin: 0 60px 0 30px;
+padding:0 3px 0 3px;
+}
+
+.main-runtext {margin: 0 auto;
+overflow: visible;
+position: relative;
+height: 40px;
+}
+
+.runtext-container .holder {
+position: relative;
+overflow: visible;
+display:inline;
+float:left;
+
+}
+
+.runtext-container .holder .text-container {
+	display:inline;
+}
+
+.runtext-container .holder a{
+	text-decoration: none;
+	font-weight: bold;
+	color:#000000;
+	text-shadow:0 -1px 0 rgba(0,0,0,0.25);
+	line-height: -0.5em;
+	font-size:16px;
+}
+
+.runtext-container .holder a:hover{
+	text-decoration: none;
+	color:#6600ff;
+}
